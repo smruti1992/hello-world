@@ -35,6 +35,6 @@ jobs:
           check-latest: true
       - name: Test with Gradle
         run: ./gradlew test
-        timeout-minutes: 60
+        timeout-minutes: 100
         env:
           GRADLE_SCANS_ACCEPT: yes
